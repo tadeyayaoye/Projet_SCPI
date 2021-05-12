@@ -1,0 +1,86 @@
+#container{
+    background: #ffffff;
+    margin: 50px auto;/**mettre la mm marge des deux coté*/
+    width: 40%;      
+    min-height: 430px;
+    border-radius: 20px;
+}
+
+header h1{
+    line-height: 0mm;
+    border: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+header h2{
+    color: #000000;
+    font-size: 22px;
+    padding: 15px 0 10px 10px;/**haut,droite,bas gauche*/
+    border-bottom: 1px solid #ffffff;
+}
+h3{
+    color: #000000;
+    font-size: 15px;
+    padding: 15px 0 10px 10px;/**haut,droite,bas gauche*/
+    border-bottom: 1px solid #ffffff;
+}
+#shouts{
+    width: 90%;
+    background: #f4f4f4;
+    height: 400px;
+    margin: 20px auto;
+    overflow: auto;
+    
+}
+
+body  {
+    padding: 0px;
+    border: 25px;
+    margin: 15px;
+    background-image: url("paper.gif");
+    background-color: #fff2c2;
+}
+.shout{
+    list-style: none;
+    padding: 8px;/**ecart entre chaque message*/
+    border-bottom: 1px dotted #7a7a7a;
+}
+
+#input{
+    width: 90%;
+    min-height: 80px;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 20px;
+
+}
+
+#input input[type="text"]{
+    height: 25px;
+    width: 48%;
+    padding: 3px;
+    margin-bottom: 20px;
+    background-origin: 1px solid #666666;
+    border-radius: 5px;
+}
+#input input[type="password"]{
+    height: 25px;
+    width: 48%;
+    padding: 3px;
+    margin-bottom: 20px;
+    background-origin: 1px solid #666666;
+    border-radius: 5px;
+}
+#input .bout{
+    font-size: medium;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
